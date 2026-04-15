@@ -1,0 +1,10 @@
+body { font-family: sans-serif; background-color: #f4f4f9; display: flex; justify-content: center; padding: 20px; }
+.registration-container { background: white; padding: 2rem; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); width: 100%; max-width: 400px; }
+.form-group { margin-bottom: 15px; }
+label { display: block; margin-bottom: 5px; font-weight: bold; }
+input { width: 100%; padding: 8px; box-sizing: border-box; border: 1px solid #ccc; border-radius: 4px; }
+button { width: 100%; padding: 10px; background: #28a745; color: white; border: none; border-radius: 4px; cursor: pointer; font-size: 16px; }
+button:hover { background: #218838; }
+.error { color: #dc3545; font-size: 0.9rem; margin-top: 10px; font-weight: bold; }
+.success { color: #28a745; font-size: 0.9rem; margin-top: 10px; font-weight: bold; }
+small { font-size: 0.75rem; color: #666; }
